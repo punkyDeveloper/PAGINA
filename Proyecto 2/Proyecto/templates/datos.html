@@ -1,0 +1,8 @@
+{% extends "base.html" %}
+{% block content %}
+<h2>Datos de Productos</h2>
+{{ tabla|safe }}
+{% endblock %}
+
+<!--El filtro |safe
+"Este contenido ya es HTML válido, no lo escapes ni lo muestres como texto -->
